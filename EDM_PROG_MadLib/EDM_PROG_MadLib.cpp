@@ -16,9 +16,9 @@ void explicarHistoria(string nom, string nomPlural, int numero, string partCos, 
         // Obtindre les entrades de l'usuari
         string nom = demanarText("Per favor, introdueix un nom: ");
         string nomPlural = demanarText("Per favor, introdueix un nom plural: ");
-        int numero = demanarNumero("Per favor, introdueix un numero: ");
         string partCos = demanarText("Per favor, introdueix una part del cos: ");
         string verb = demanarText("Per favor, introdueix un verb: ");
+        int numero = demanarNumero("Per favor, introdueix un numero: ");
 
         // Mostrar la història de Mad Libs
         explicarHistoria(nom, nomPlural, numero, partCos, verb);
